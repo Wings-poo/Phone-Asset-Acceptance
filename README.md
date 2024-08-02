@@ -8,6 +8,9 @@ The format for entering the message in the chat box could be improved (i.e. remo
 
 This is missing "Ricky"'s profile picture. It may or may not be added later on.
 
+Sample output (except the chat box doesn't follow the format since this is used for the game's main menu image):
+![Main_Menu](https://github.com/user-attachments/assets/cee35634-63f5-4ca2-8bd5-9acd15128395)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
