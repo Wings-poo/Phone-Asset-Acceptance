@@ -11,7 +11,7 @@ function App() {
     const [list, setList] = useState([]);
     const [id, setId] = useState(0);
     
-    let timeStart = "18:43:12";
+    let timeStart = "11:00:09";
     const timeNow = new Date();
     const [currDate, setCurrDate] = useState(timeNow);
 

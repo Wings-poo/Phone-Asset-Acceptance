@@ -19,14 +19,9 @@ const Messages = (props) => {
                     </div>
                     );
 
-                else if ((item.name === "None") && (item.msg === "Me"))
+                else if (item.name === "None")
                     return (
-                        <h4>You left the group chat.</h4>
-                    )
-
-                else if ((item.name === "None") && (item.msg === "Ricky"))
-                    return (
-                        <h4>Ricky left the group chat.</h4>
+                        <h4>{item.msg}</h4>
                     )
                     
                 else
