@@ -1,38 +1,238 @@
 .App {
-  text-align: center;
+    /*text-align: center;*/
+    background-color: #61dafb;
 }
-
+  
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
-
+  
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
 }
-
+  
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
-
+  
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
+}
+  
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+   
+#Phone {
+    border: solid pink;
+    border-width: 8px;
+    border-radius: 50px;
+    margin: 50px;
+    width: 500px;
+    height: 800px;
+    display: inline-block;
+    background-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#PhoneScreen {
+    border-radius: 35px;
+    margin: 25px;
+    width: 450px;
+    height: 750px;
+    background-image: url("./assets/aoi_shouta_bg.jpg");
+}
+
+#TopMenu {
+    background: rgb(256, 256, 256, 0.35);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.TopMenu {
+    margin-top: 5px;
+    height: 25px;
+}
+
+#Camera {
+    margin-left: 35px;
+}
+
+#MobileData {
+    margin-left: 300px;
+}
+  
+#Battery {
+    margin-left: 15px;
+}
+
+#SecondTopMenu {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 380px;
+}
+
+#ClubName {
+    border-bottom: solid gray;
+    background: white;
+    height: 60px;
+}
+
+#ClubNameName {
+    margin: 0px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#ClubNameImg {
+    float: left;
+    height: 40px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#InfoImg {
+    float: right;
+    height: 40px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.Messenger {
+    height: 495px;
+    background: white;
+    padding-top: 5px;
+    overflow-y: scroll;
+}
+
+.pfp {
+    float: left;
+    width: 50px;
+    padding-top: 5px;
+    margin: 0px 10px 5px 10px;
+}
+
+.pfp_me {
+    float: right;
+    width: 50px;
+    padding-top: 5px;
+    margin: 0px 10px 5px 10px;
+}
+
+.message {
+    border: solid gray;
+    margin: 0px 5px 5px 65px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 20px;
+}
+
+.messageme {
+    border: solid gray;
+    margin: 5px 65px 10px 5px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 20px;
+}
+
+h3 {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+  
+.time {
+    color: gray;
+    display: inline-block;
+}
+
+.post {   
+    clear: both;
+}
+
+.time {
+    float: right;
+    margin-right: 5px;
+}
+
+p {
+    margin: 0px 5px 0px 0px;
+}
+
+h4 {
+    margin: 5px;
+    text-align: center;
+}
+
+#chat {
+    background: gray;
+}
+
+#AddMediaImg {
+    display: inline-block;
+    float: left;
+    height: 30px;
+    margin: 10px;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    width: 335px;
+    height: 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+#SendImg {
+    display: inline-block;
+    float: right;
+    height: 30px;
+    margin: 10px;
+}
+
+/*h2 {
+    display: inline-block;
+    margin: 0px 0px 3px 0px;
+    line-height: 50%;
+    color: rgb(265,265,265,0.8);
+    background-color: gray;
+    padding-top: 18px;
+    padding-left: 10px;
+    height: 30px;
+}*/
+
+.BottomMenu {
+    margin-top: 5px;
+    height: 35px;
+}
+
+#BottomMenu {
+    background: rgb(0, 0, 0, 0.35);
+}
+
+#Hamburger {
+    margin-left: 45px;
+}
+
+#Home {
+    margin-left: 90px;
+}
+  
+#Back {
+    margin-left: 110px;
 }
