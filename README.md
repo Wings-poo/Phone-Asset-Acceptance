@@ -1,7 +1,7 @@
 This was created for the game "Acceptance" by Wings-poo. Acceptance is a game to be submitted for Single Choice game jam 2024 (https://itch.io/jam/single-choice-jam-24).
 
 This is made for creating object assets to be used in the game, thus it is not as interactive as a normal phone/chat app design. It only has the features:
-- entering message in the chat box (format: <Name>;<Message>)
+- entering message in the chat box (format: [Name];[Message])
 - displaying the messages in the phone
 
 The format for entering the message in the chat box could be improved (i.e. removing the Name and putting it elsewhere). But it was kept as is due to the script being written beforehand, so this format is easier for me to put in the messages in the chat box.
